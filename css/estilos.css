@@ -1,0 +1,38 @@
+body {
+  background-image: url('https://images4.alphacoders.com/594/thumb-1920-594600.jpg');
+  background-size: auto 100vh; 
+  font-family: Georgia;
+  height: 100vh;
+}
+
+.menu {
+  background-color: White;
+}
+
+a{
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul{
+  display:flex;
+  justify-content: space-around;
+}
+
+.site-subtitle,
+.site-title {
+  color: cyan;
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
